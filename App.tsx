@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
-import { ChatMessage, Reminder } from './types';
-import { analyzePlantImage, createChatSession, sendMessageToChat } from './services/geminiService';
-import { UploadIcon, SendIcon, SparklesIcon, CalendarIcon, BellIcon, TrashIcon, MicrophoneIcon, ShareIcon } from './components/icons';
+import { ChatMessage, Reminder } from './types.ts';
+import { analyzePlantImage, createChatSession, sendMessageToChat } from './services/geminiService.ts';
+import { UploadIcon, SendIcon, SparklesIcon, CalendarIcon, BellIcon, TrashIcon, MicrophoneIcon, ShareIcon } from './components/icons.tsx';
 import type { Chat } from '@google/genai';
 
 // Add type definitions for SpeechRecognition API as it's not a standard part of TypeScript's DOM library.
